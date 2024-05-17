@@ -1,0 +1,57 @@
+{
+    "pageTextData":
+    [
+        {
+            "title":"Coca Cola Great Britain",
+            "subTitle":"Founded in 1886 Dr John S Pemberton",
+            "description":"The Coca Cola Company is the world's leading manufacturer, marketer and distributor of non-alcoholic beverage concentrates and syrups, and produces nearly 400 brands."
+        },
+        {
+            "title":"Coca Cola",
+            "subTitle":"New York Harbour, 1886",
+            "description":"It was 1886, John Pemberton, an Atlantapharmacist, was inspired by simplecuriosity. One afternoon, he stirred up afragrant, caramel-coloured liquid and,when it was done, the mixture wascombined with carbonated water andsampled by customers who all agreed -this new drink was something special!",
+            "image":""
+        },
+        {
+            "title":"Sprite",
+            "subTitle":"West Germany, 1959",
+            "description":"First introduced in 1961, crisp, refreshing,clean-tasting Sprite is now the world'sleading lemon and lime flavoured softdrink and is sold in more than 190 different countries. Sprite Zero, part of ourno sugar Zero range, offers the deliciouslemon lime taste of Sprite without thesugar or calories."
+        },
+        {
+            "title":"Dr.pepper",
+            "subTitle":"Texas, 1885",
+            "description":"Dr Peppers unique, sparkling blend of 23fruit flavours has been around for wellover a century and it's still the same, withthat distinctive flavour you just can't quiteput your tongue on. It was created byTexas pharmacist Charles Alderton in1885."
+        },
+        {
+            "X3dModelTitle":"Coca Cola X3D Model",
+            "X3dCreationMethod":"This X3D model of the coke can has been created in  Blender 4.1,exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+            "title":"History of Coca Cola",
+            "subTitle":"Atlanta Beginnings",
+            "description":"It was 1886，and in New York Harbour，workers wereconstructing the Statue of Liberty. Eight hundred miles away，another great American symbolwas about to be unveiled. Like many people who change history，John Pemberton，an Atlanta pharmacist，was inspired bysimple curiosity.One afternoon，he stirred up a fragrant，caramel-coloured liquid and，whenit was done，he carried it a few doors down to Jacobs'Pharmacy.Here，the mixture was combined with carbonated water and sampled by customers who all agreed - this new drink wassomething special.So Jacobs'Pharmacy put it on sale for five cents (about 3p) a glass."
+        },
+        {
+            "X3dModelTitle":"Sprite X3D Model",
+            "X3dCreationMethod":"This X3D model of the sprite bottle has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+            "title":"Sprite — Fanta Klare Zitrone",
+            "subTitle":"First introduced in 1961",
+            "description":"Crisp, refreshing, clean-tasting Sprite is now the world's leading lemon and lime flavoured soft drink and is sold in more than 190 different countries. Sprite Zero, part of Coca Cola's no sugar Zero range, offers the delicious lemon lime taste of Sprite without the sugar or calories."
+        },
+        {
+            "X3dModelTitle":"Dr Pepper X3D Model",
+            "X3dCreationMethod":"This X3D model of the pepper cup has been created in 3ds Max, exported to VRML97 and converted, using the instantreality transcoders, to X3D for display online.",
+            "title":"Dr Pepper — Liquid Sunshine",
+            "subTitle":"23 fruit flavours",
+            "description":"Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since."
+        },
+        {
+            "galleryTitle":"3D Images",
+            "galleryDescription":"These 3D images of the Coke can, Sprite bottle and Dr Pepper cup are rendered in Blender 4.1"
+        },
+        {
+            "CameraTitle":"Camera Views",
+            "CameraSubtitle":"These buttons select a range of X3D model viewpoints"
+        }
+
+
+    ]
+}

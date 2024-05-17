@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://kit.fontawesome.com/19558212de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'> 
+    <title>Coca Cola 3D App template</title>
+    <!--Method to declare your own fonts-->
+  </head>
+
+
+  <body>
+    
+    <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola">
+      <!-- Brand -->
+      <div class="container">
+        <div class="logo">
+          <a class="navbar-brand" href="#">
+          <h1>1</h1>
+          <h1>oca</h1>
+          <h2>Cola</h2>
+          <h3>Journey</h3>
+          <p>Refreshing the world, one story at a time</p>
+          </a>
+        </div>
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li> 
+          
+       <!-- Dropdown -->
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drinks</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Coca Cola</a>
+              <a class="dropdown-item" href="#">Sprite</a>
+              <a class="dropdown-item" href="#">Dr Pepper</a>
+            </div>
+           </li>
+
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container main_contents">
+      <div id="home">
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="main_3d_image">
+            <div id="main_text" class="col-xs-12 col-sm-6 col-md-7">
+              <div id="title_home"></div>
+              <div id="subTitle_home"></div>
+              <div id="description_home"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Row of cards on the grid-->
+      <div class="row">
+       <div class="col-sm-12 col-md-4">
+          <div class="card">
+            <a href="assets/images/renderImages/coke.jpg" data-fancybox data-caption="My 3D Coke Can Render"> 
+              <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/coca_cola_v1.png" alt="Coca Cola">
+            </a>
+            <div class="card-body">
+              <div id="title_left" class="card-title homeText"></div>
+              <div id="subTitle_left" class="card-subtitle homeText"></div>
+              <div id="description_left" class="card-text homeText"></div>
+              <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href="assets/images/renderImages/sprite.jpg" data-fancybox data-caption="My 3D Sprite Can Render"> 
+              <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/sprite_v1.png" alt="coca">
+            </a>
+            <div class="card-body">
+              <div id="title_centre" class="card-title homeText"></div>
+              <div id="subTitle_centre" class="card-subtitle homeText"></div>
+              <div id="description_centre" class="card-text homeText"></div>
+              <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="card">
+            <a href="assets/images/renderImages/pepper.jpg" data-fancybox data-caption="My 3D dr.pepper Can Render"> 
+              <img class="card-img-top img-fluid img-thumbnail" src="assets/images/site_images/dr_pepper_v1.png" alt="coca">
+            </a>
+            <div class="card-body">
+              <div id="title_right" class="card-title homeText"></div>
+              <div id="subTitle_right" class="card-subtitle homeText"></div>
+              <div id="description_right" class="card-text homeText"></div>
+              <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-primary">Find out more ...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+    <div id="coke" class="container-fluid main_contents" style="display:none">
+        <p>merge your cokehtml</p>
+    </div>
+
+    <div id="sprite" class="container-fluid main_contents" style="display:none">
+        <p>merge your pepsihtml</p>
+    </div>
+
+    <div id="pepper" class="container-fluid main_contents" style="display:none">
+        <p>merge your pepperhtml</p>
+    </div>  
+
+    <br>
+    <!--footer-->
+    <nav class="navbar navbar-expand-sm footer">
+      <div class="container">
+        <div class="navbar-text float-left copyright">
+        <p><span class="align-baseline">&copy 2024 moblie web 3d applications</p></span>
+        </div>
+        <div class="navbar-text float-right social">
+          <a href="#"><i class="fab fa-facebook-square fa-2x" style="font-size:20px;color:red;"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x" style="font-size:20px;color:green;"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x" style="font-size:20px;color:blue;"></i></a>
+          <a href="#"><i class="fab fa-github-square fa-2x" style="font-size:20px;color:yellow;"></i></a>
+        </div>
+      </div>
+    </nav>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <!--
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+      -->
+      <script src="js/jquery-3.7.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script type="text/javascript" src="js/gallery_generator.js"></script>
+      <script type='text/javascript' src='js/x3dom.js'></script> 
+      <script src="https://kit.fontawesome.com/19558212de.js" crossorigin="anonymous"></script>
+      <script src="js/getJsonData.js"></script>
+      <script src="js/jquery.fancybox.min.js"></script>
+      <script src="scripts/js/jquery.fancybox.min.js"></script>
+  </body>
+</html>
